@@ -32,14 +32,10 @@ jobs:
       run: |
         python Pythonlar/trgoals.py # Python scriptinin dosya adını buraya yaz
 
-    - name: Değişiklikleri Git'e Kaydet ve Gönder (Commit & Push)
+    - name: Değişiklikleri Git'e Kaydet (Commit)
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
         git add trgoals.m3u
         git commit -am "Otomatik: TRGoals M3U güncellendi" || echo "Değişiklik yok, commit atlanıyor."
-        # Uzak depodaki (origin/main) en son değişiklikleri çek ve birleştir
-        # Bu, çakışmaları çözmenize veya yerel kopyanızı güncel tutmanıza yardımcı olur.
-        git pull origin main --rebase
-        # Değişiklikleri uzak depoya gönder
         git push
