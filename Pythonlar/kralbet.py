@@ -8,7 +8,7 @@ def m3u_olustur():
         
         # Proxy üzerinden kaynağı al
         kaynak_url = "https://royalvipcanlimac.com/channels.php"
-        proxy_url = f"https://vettelchannelowner-kralbet.hf.space/proxy/m3u?url={kaynak_url}"
+        proxy_url = f"https://swonixs1-swonixs.hf.space/proxy/m3u?url={kaynak_url}"
         
         print(f"🔗 URL: {proxy_url}")
         
