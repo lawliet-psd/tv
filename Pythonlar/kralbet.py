@@ -7,7 +7,7 @@ def m3u_olustur():
         print("⚡ M3U oluşturucu başlatıldı...")
         
         # Proxy üzerinden kaynağı al
-        kaynak_url = "https://royalvipcanlimac.com/channels.php"
+        kaynak_url = "https://1029kralbettv.com/channels.php"
         proxy_url = f"https://swonixs1-swonixs.hf.space/proxy/m3u?url={kaynak_url}"
         
         print(f"🔗 URL: {proxy_url}")
